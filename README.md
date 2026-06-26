@@ -1,10 +1,10 @@
-# 🛍️ ShopSphere
+# ShopSphere
 
 A modern, responsive product-browsing SPA built with **React 19** and **Vite 8**, powered by the **FakeStore API**. Features a premium dark UI with real-time search, category filtering, skeleton loaders, wishlist toggling, and cart interactions — all without a backend.
 
 ---
 
-## ✨ Features
+## Features
 
 - 🔍 **Live product search** — instant client-side filtering by product title
 - 🗂️ **Category filtering** — pill buttons (desktop) + native `<select>` (mobile)
@@ -18,7 +18,7 @@ A modern, responsive product-browsing SPA built with **React 19** and **Vite 8**
 
 ---
 
-## 🖥️ Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -33,7 +33,7 @@ A modern, responsive product-browsing SPA built with **React 19** and **Vite 8**
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 shopexplorer/
@@ -61,7 +61,7 @@ shopexplorer/
 
 ---
 
-## 🌐 API Used — FakeStore API
+## API Used — FakeStore API
 
 **Base URL:** `https://fakestoreapi.com`
 
@@ -82,7 +82,7 @@ shopexplorer/
 
 ---
 
-## 🏗️ Architecture & Key Decisions
+## Architecture & Key Decisions
 
 ### State Management — Local React State
 
@@ -130,7 +130,7 @@ The Axios instance is created once and shared. Interceptors handle:
 
 ---
 
-## 🚀 Setup & Running Locally
+## Setup & Running Locally
 
 ### Prerequisites
 
@@ -164,7 +164,7 @@ The app will be available at **http://localhost:5173** by default.
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 ### Production
 
@@ -188,7 +188,7 @@ The app will be available at **http://localhost:5173** by default.
 
 ---
 
-## 🔮 Potential Enhancements
+## Potential Enhancements
 
 - [ ] Product detail modal or dedicated detail page (`/product/:id`)
 - [ ] Persistent cart & wishlist via `localStorage` or a state manager
@@ -200,6 +200,6 @@ The app will be available at **http://localhost:5173** by default.
 
 ---
 
-## 📄 License
+## License
 
 [ISC](./package.json)
